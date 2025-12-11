@@ -7,7 +7,7 @@ import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 const deployedContracts = {
   31337: {
     DEX: {
-      address: "0x809d550fca64d94Bd9F66E60752A544199cfAC3D",
+      address: "0xc351628EB244ec633d5f21fBD6621e1a683B1181",
       abi: [
         {
           inputs: [
@@ -312,10 +312,10 @@ const deployedContracts = {
         },
       ],
       inheritedFunctions: {},
-      deployedOnBlock: 52,
+      deployedOnBlock: 62,
     },
     MyUSD: {
-      address: "0x36C02dA8a0983159322a80FFE9F24b1acfF8B570",
+      address: "0x7bc06c482DEAd17c0e297aFbC32f6e63d3846650",
       abi: [
         {
           inputs: [
@@ -837,10 +837,10 @@ const deployedContracts = {
         renounceOwnership: "@openzeppelin/contracts/access/Ownable.sol",
         transferOwnership: "@openzeppelin/contracts/access/Ownable.sol",
       },
-      deployedOnBlock: 51,
+      deployedOnBlock: 61,
     },
     MyUSDEngine: {
-      address: "0x5f3f1dBD7B74C6B46e8c44f98792A1dAf8d69154",
+      address: "0x1429859428C0aBc9C2C47C8Ee9FBaf82cFA0F20f",
       abi: [
         {
           inputs: [
@@ -876,6 +876,11 @@ const deployedContracts = {
         {
           inputs: [],
           name: "Engine__InvalidAmount",
+          type: "error",
+        },
+        {
+          inputs: [],
+          name: "Engine__NotLiquidatable",
           type: "error",
         },
         {
@@ -1371,10 +1376,10 @@ const deployedContracts = {
         renounceOwnership: "@openzeppelin/contracts/access/Ownable.sol",
         transferOwnership: "@openzeppelin/contracts/access/Ownable.sol",
       },
-      deployedOnBlock: 55,
+      deployedOnBlock: 65,
     },
     MyUSDStaking: {
-      address: "0x1291Be112d480055DaFd8a610b7d1e203891C274",
+      address: "0xcbEAF3BDe82155F56486Fb5a1072cb8baAf547cc",
       abi: [
         {
           inputs: [
@@ -1753,10 +1758,10 @@ const deployedContracts = {
         renounceOwnership: "@openzeppelin/contracts/access/Ownable.sol",
         transferOwnership: "@openzeppelin/contracts/access/Ownable.sol",
       },
-      deployedOnBlock: 54,
+      deployedOnBlock: 64,
     },
     Oracle: {
-      address: "0x4c5859f0F772848b2D91F1D83E2Fe57935348029",
+      address: "0xFD471836031dc5108809D173A067e8486B9047A3",
       abi: [
         {
           inputs: [
@@ -1828,10 +1833,10 @@ const deployedContracts = {
         },
       ],
       inheritedFunctions: {},
-      deployedOnBlock: 53,
+      deployedOnBlock: 63,
     },
     RateController: {
-      address: "0x5eb3Bc0a489C5A8288765d2336659EbCA68FCd00",
+      address: "0x7969c5eD335650692Bc04293B07F5BF2e7A673C0",
       abi: [
         {
           inputs: [
@@ -1887,7 +1892,7 @@ const deployedContracts = {
         },
       ],
       inheritedFunctions: {},
-      deployedOnBlock: 50,
+      deployedOnBlock: 60,
     },
   },
 } as const;
